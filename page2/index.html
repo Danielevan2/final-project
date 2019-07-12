@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PIZZA-DELICIEUX</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <div id="header" >
+        <div > 
+           <!--klik order-->
+          <button onclick="myFunction()" class="order">Try it</button>
+        </div>
+
+        <div id="sizeposition" onclick="size()"> <!--untuk size-->
+            <input type="radio" name="size" value="25000" /> 
+            <input type="radio" name="size" value="50000" />
+            <input type="radio" name="size" value="75000"/>
+        </div>
+
+        <div id="sauceposition" onclick="sauce()"> <!--untuk sauce-->
+            <input type="radio" name="sauce" value="bbq" />
+            <input type="radio" name="sauce" value="ricotta-cheese"  id="ricota"/>
+            <input type="radio" name="sauce" value="nutella"  id="chesse"/>
+        </div>
+
+        <div id="toppingposition" onclick="gettopping()" > <!--untuk topping-->
+          <font color="white" style="font-family: consolas" class="ukuranfont" >
+          <input type="checkbox" name="topping" value="banana" /> Banana
+          <br> 
+          <input type="checkbox" name="topping" value="pineapple" /> Pineapple
+          <br>
+          <input type="checkbox" name="topping" value="pepperoni" /> Pepperoni
+          <br>
+          <input type="checkbox" name="topping" value="mushroom" /> Mushroom
+          <br>
+          <input type="checkbox" name="topping" value="chesse" /> Chesse
+          <br>
+          <input type="checkbox" name="topping" value="beef" /> Beef
+          </font>
+        </div>
+
+          <!-- toppingamount -->
+          <div id="toppingamountid" onclick="toppingamount ()">
+            <input type="radio" name='toppingamount' value="5000" id="less"/>
+            <input type="radio" name='toppingamount' value="15000" />
+            <input type="radio" name='toppingamount' value="25000" id="more"/>
+          </div>
+
+          <!--crust position-->
+          <div id="crustposition"> 
+              <select onchange="crustt ()" id="crust">
+                  <option value="chessybites">Chessybites</option>
+                  <option value="panpizza">Panpizza</option>
+                  <option value="stuffedcrust">Stuffedcrust</option>
+                </select>
+          </div>
+        <div>
+        
+            <form class="box">
+                <font color="black" style="font-family: consolas" >
+             <h4 id="resultharga"></h4>
+              </font>
+            </form>
+        </div>
+
+
+      
+    </div>
+    
+    <div id="headerdua" >
+        <div class= "boxdua" >
+            <font color="white" style="font-family: consolas" >
+              <h2>BILLING NOTE <br>
+                  ____________ </h2>
+        <h3 id="resultdua" ></h3> 
+        <h3 id="resulttiga"></h3>
+        <h3 id="resultempat"></h3>
+        <h3 id="resultlima"></h3>
+        <h3 id="resultenam"></h3>
+        <h2>      ____________________</h2>
+        <h3 id="resulthargadua"></h3>
+        </font>
+       
+        <form action="../page1/last.html" id="usrform" class="payment">
+          <font color="yellow"> Your Money </font> <input type="number" name="money" id="payment"  required>
+         <br> <br>
+         
+         <input type="submit" onclick="getmoney ()" value="Accepted">
+         </form>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+#header {
+    height: 1440px;
+    width: 1280px;
+    background-image: url("../asset/fix4.png");
+    
+}
+#headerdua {
+        height: 1440px;
+        width: 1280px;
+        background-image: url("../asset/fixx3.png");
+        display: none;
+       }
+   
+/* order */
+.order {
+    position: relative;
+    top:1130px;
+    left: 919px;
+    height: 216px;
+    width: 216px;
+    background-color: yellow;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+/* size */
+#sizeposition {
+    position: absolute;;
+    top: 340px;
+    left: 280px;
+  }
+input[name="size"]{
+    margin-left: 125px
+}
+/* sauce */
+#sauceposition {
+    position: absolute;;
+    top: 453px;
+    left: 410px;
+  }
+#ricota {
+    position: absolute;
+    left: 180px;
+}
+#chesse {
+    position: relative;
+    top: 145px;
+    left:70px;
+}
+/* topping */
+#toppingposition {
+    position: absolute;
+    top : 855px;
+    left: 400px;
+    font-style: inherit; 
+}
+.ukuranfont {
+    font-size: 35px
+}
+#toppingamountid {
+    position: relative;
+    left: 350px;
+    top: 960px;
+}
+#less {
+    position: relative;
+    right: 95px;
+}
+#more {
+    position: relative;
+    left: 90px;
+}
+/* crust */
+#crustposition {
+    position: absolute;
+    top : 1250px;
+    left: 450px;
+
+}
+
+/* total */
+.box {
+    width: 260px;
+    height: 5px;
+    padding: 10px;
+    position: absolute;
+    top:950px;
+    left: 900px;
+    font-size: 50px;
+}
+.boxdua {
+ 
+    position: relative;
+    top:550px;
+    left: 400px;
+    
+}
+.bill {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#payment {
+    font-size: 20px;
+}
